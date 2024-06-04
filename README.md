@@ -1,8 +1,8 @@
 # Minimal Next JS Typescript Template
 
-Fork of [Nextplate](https://github.com/nextplate-dev/nextplate)
+Fork of [Nextplate](https://github.com/ronnelpf/lanao-integrated-school.git)
 
-- [Vercel Demo](https://nextra-ts.vercel.app)
+- [Vercel Demo](https://lanao-integrated-school.vercel.app)
 
 ![Example Image](image/example.png)
 
@@ -12,7 +12,7 @@ Fork of [Nextplate](https://github.com/nextplate-dev/nextplate)
 - Or Clone this Project
 
 ```bash
-git clone https://github.com/seonglae/next-ts-template
+git clone https://github.com/ronnelpf/lanao-integrated-school
 pnpm i
 pnpm dev
 ```
