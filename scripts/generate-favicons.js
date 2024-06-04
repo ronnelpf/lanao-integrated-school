@@ -7,7 +7,7 @@ const siteConfig = require('../site-config')
 module.exports = async () =>
   new Promise((resolve, reject) =>
     favicons(
-      path.resolve(process.cwd(), 'src', 'public', 'favicon.png'),
+      path.resolve(process.cwd(), 'src', 'public', 'lis-logo.jpg'),
       {
         path: '/',
         appName: siteConfig.title,
