@@ -13,8 +13,8 @@ Fork of [Nextplate](https://github.com/ronnelpf/lanao-integrated-school.git)
 
 ```bash
 git clone https://github.com/ronnelpf/lanao-integrated-school
-pnpm i
-pnpm dev
+npm i
+npm run dev
 ```
 
 ## Components

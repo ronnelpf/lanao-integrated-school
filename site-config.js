@@ -12,7 +12,7 @@ module.exports = {
   description,
   url: 'https://lanao-integrated-school.vercel.app',
   twitterUsername: '@rpfprogrammer',
-  email: 'seongle3737@gmail.com',
+  email: 'rpf.programmer@gmail.com',
   socials: {
     GitHub: 'https://github.com/ronnelpf/lanao-integrated-school',
     Twitter: 'https://twitter.com/rpfprogrammer',
