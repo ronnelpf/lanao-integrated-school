@@ -35,19 +35,19 @@ export const Carousel: React.FC = () => {
       title: 'Design Projects 1',
       text: "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
       image:
-        'https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+        'https://scontent.fceb1-3.fna.fbcdn.net/v/t39.30808-6/359784891_183581491362544_3517783001639202466_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFsLQ74jCxaQne1leHjc98iPF1ka5-XywE8XWRrn5fLAWbH-7jJWzHxbTzyXKDgNwj7IwP40oS-op0V-yIh-O3q&_nc_ohc=ChAQwtQfgpEQ7kNvgGcwZOr&_nc_ht=scontent.fceb1-3.fna&oh=00_AYA2Uou2aNY7UGtVdEZYFpw4pfXiS2LLsvkXDjiG4F2e9w&oe=66663719',
     },
     {
       title: 'Design Projects 2',
       text: "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
       image:
-        'https://images.unsplash.com/photo-1438183972690-6d4658e3290e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2274&q=80',
+        'https://scontent.fceb1-5.fna.fbcdn.net/v/t39.30808-6/406801200_264431963277496_7416103855624405052_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHx_yzmJ_FQSE210FJc6ujne7_3Rs6Ewvl7v_dGzoTC-XNXqiVw7BQvWEVzJUnjEWd7GKMynrOl_em7XdqFAXKf&_nc_ohc=O_oj2zAak70Q7kNvgFGDUAj&_nc_ht=scontent.fceb1-5.fna&oh=00_AYBCDMM9oYHbel9f37MRa0a3PKMKk1d1yY-Gfm7Cxd98hg&oe=666638E6',
     },
     {
       title: 'Design Projects 3',
       text: "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
       image:
-        'https://images.unsplash.com/photo-1507237998874-b4d52d1dd655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+        'https://scontent.fceb1-4.fna.fbcdn.net/v/t39.30808-6/359766959_183546598032700_7550839420482962834_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE8FeA54J8s9hJBBrX16G7lePIVjLizh0N48hWMuLOHQwUyuEs7YO29qW08UTj7qHcEV5WporjW_enYN3i84BNx&_nc_ohc=6btRngq69NkQ7kNvgG8kIx-&_nc_ht=scontent.fceb1-4.fna&oh=00_AYDOl6Ilhx9agGsxRTmGD9vQyOvTKIPWFK_H4qzhgOrNSw&oe=6666414E',
     },
   ]
 
