@@ -11,6 +11,7 @@ import dynamic from 'next/dynamic'
 import { Navbar } from '@/components/navbar'
 import { Carousel } from '@/components/carousel'
 import { Statistics } from '@/components/statistics'
+import { FeaturedArticles } from '@/components/featured-articles'
 import { Footer } from '@/components/footer'
 import { theme } from '@/theme'
 import siteConfig from '~/site-config'
@@ -74,6 +75,7 @@ function App(props: AppProps) {
               <Component {...pageProps} />
             </Box>
             <Statistics />
+            <FeaturedArticles />
             <Footer />
           </Stack>
           <MobileDrawer />
