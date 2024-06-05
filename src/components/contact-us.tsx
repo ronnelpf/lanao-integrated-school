@@ -60,7 +60,7 @@ export const ContactUs: React.FC = () => {
           backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
           backgroundAttachment: 'fixed',
         }}
-        id="contact"
+        id="contact-us"
       >
         <Flex color="white">
           <Center></Center>

@@ -2,7 +2,7 @@ import { Flex, Box, Stack, Link, Heading, Text, useColorModeValue, Image, Avatar
 
 export const Events: React.FC = () => {
   return (
-    <Container maxW="Full" background="blue.50" pb={8}>
+    <Container id="events" maxW="Full" background="blue.50" pb={8}>
       <Flex minH={'100vh'} align={'center'} justify={'center'}>
         <Stack spacing={8} py={12} px={6}>
           <Stack align={'center'}>

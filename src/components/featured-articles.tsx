@@ -2,7 +2,7 @@ import { Flex, Box, Stack, Link, Heading, Text, useColorModeValue, Image, Avatar
 
 export const FeaturedArticles: React.FC = () => {
   return (
-    <Flex minH={'100vh'} align={'center'} justify={'center'}>
+    <Flex id="articles" minH={'100vh'} align={'center'} justify={'center'}>
       <Stack spacing={8} py={12} px={6}>
         <Stack align={'center'}>
           <Heading fontSize={'4xl'}>Featured Articles</Heading>

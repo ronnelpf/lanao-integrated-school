@@ -44,7 +44,7 @@ const HomePage: NextPage = () => {
           </WrapItem>
         </Wrap>
       </Stack> */}
-      <Container maxW={'3xl'}>
+      <Container id="about-us" maxW={'3xl'}>
         <Stack as={Box} textAlign={'center'} spacing={{ base: 8, md: 14 }} py={{ base: 10, md: 18 }}>
           <Center>
             {' '}
