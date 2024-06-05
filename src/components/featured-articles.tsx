@@ -1,20 +1,4 @@
-import {
-  Flex,
-  Box,
-  FormControl,
-  FormLabel,
-  Input,
-  Checkbox,
-  Stack,
-  Link,
-  Button,
-  Heading,
-  Text,
-  useColorModeValue,
-  Image,
-  Avatar,
-  HStack,
-} from '@chakra-ui/react'
+import { Flex, Box, Stack, Link, Heading, Text, useColorModeValue, Image, Avatar } from '@chakra-ui/react'
 
 export const FeaturedArticles: React.FC = () => {
   return (
@@ -26,7 +10,7 @@ export const FeaturedArticles: React.FC = () => {
             to enjoy all of our cool <Link color={'blue.400'}>articles</Link> ✌️
           </Text>
         </Stack>
-        <HStack>
+        <Stack direction={{ base: 'column', md: 'row' }} spacing={{ base: 10, md: 4, lg: 10 }}>
           <Box
             maxW={'445px'}
             w={'full'}
@@ -171,7 +155,7 @@ export const FeaturedArticles: React.FC = () => {
               </Stack>
             </Stack>
           </Box>
-        </HStack>
+        </Stack>
       </Stack>
     </Flex>
   )
