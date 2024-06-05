@@ -12,13 +12,13 @@ export const Navbar: React.FC = () => {
   const socials = useSocials()
 
   return (
-    <HStack as="nav" fontSize="md" p={4} spacing={0}>
+    <HStack className="chakra-container css-f1f7ew" as="nav" fontSize="md" spacing={0}>
       <Link fontWeight="bold" href="/" p={4} variant="link">
         {siteConfig.title}
       </Link>
 
-      <HStack flexGrow={1} justify="flex-end" p={4} spacing={{ base: 0, sm: 2 }}>
-        {socials.map(([href, SocialIcon]) => (
+      <HStack flexGrow={1} justify="flex-end" spacing={{ base: 0, sm: 2 }}>
+        {/* {socials.map(([href, SocialIcon]) => (
           <IconButton
             as="a"
             aria-label={href}
@@ -28,7 +28,7 @@ export const Navbar: React.FC = () => {
             key={href}
             variant="link"
           />
-        ))}
+        ))} */}
         <IconButton
           aria-label="toggle dark mode"
           color="currentColor"

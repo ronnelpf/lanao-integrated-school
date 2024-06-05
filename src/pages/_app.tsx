@@ -9,6 +9,7 @@ import Router from 'next/router'
 import dynamic from 'next/dynamic'
 
 import { Navbar } from '@/components/navbar'
+import { Carousel } from '@/components/carousel'
 import { Footer } from '@/components/footer'
 import { theme } from '@/theme'
 import siteConfig from '~/site-config'
@@ -28,6 +29,7 @@ function App(props: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet" />
       </Head>
 
       <DefaultSeo
@@ -67,6 +69,7 @@ function App(props: AppProps) {
         <>
           <Stack justify="space-between" minH="100vh" spacing={0}>
             <Navbar />
+            <Carousel />
             <Box as="main">
               <Component {...pageProps} />
             </Box>
