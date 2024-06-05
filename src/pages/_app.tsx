@@ -15,6 +15,7 @@ import { FeaturedArticles } from '@/components/featured-articles'
 import { CallToAction } from '@/components/call-to-action'
 import { Events } from '@/components/events'
 import { Testimonials } from '@/components/testimonials'
+import { ContactUs } from '@/components/contact-us'
 import { Footer } from '@/components/footer'
 import { theme } from '@/theme'
 import siteConfig from '~/site-config'
@@ -82,6 +83,7 @@ function App(props: AppProps) {
             <CallToAction />
             <Events />
             <Testimonials />
+            <ContactUs />
             <Footer />
           </Stack>
           <MobileDrawer />
