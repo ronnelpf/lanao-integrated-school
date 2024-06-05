@@ -1,4 +1,4 @@
-import { Box, chakra, SimpleGrid, Stat, StatLabel, StatNumber, useColorModeValue } from '@chakra-ui/react'
+import { Box, chakra, Container, SimpleGrid, Stat, StatLabel, StatNumber, useColorModeValue } from '@chakra-ui/react'
 
 interface StatsCardProps {
   title: string
@@ -27,15 +27,17 @@ function StatsCard(props: StatsCardProps) {
 
 export const Statistics: React.FC = () => {
   return (
-    <Box maxW="7xl" mx={'auto'} px={{ base: 2, sm: 12, md: 17 }}>
-      <chakra.h1 textAlign={'center'} fontSize={'4xl'} py={10} fontWeight={'bold'}>
-        What is our school doing?
-      </chakra.h1>
-      <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
-        <StatsCard title={'We teach'} stat={'50,000 students'} />
-        <StatsCard title={'In'} stat={'30 classrooms'} />
-        <StatsCard title={'Who speak'} stat={'100 teachers'} />
-      </SimpleGrid>
-    </Box>
+    <Container maxW="Full" background="blue.50" pb={8}>
+      <Box maxW="7xl" mx={'auto'} px={{ base: 2, sm: 12, md: 17 }}>
+        <chakra.h1 textAlign={'center'} fontSize={'4xl'} py={10} fontWeight={'bold'}>
+          What is our school doing?
+        </chakra.h1>
+        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
+          <StatsCard title={'We teach'} stat={'1,000 students'} />
+          <StatsCard title={'In'} stat={'30 classrooms'} />
+          <StatsCard title={'Who speak'} stat={'20 teachers'} />
+        </SimpleGrid>
+      </Box>
+    </Container>
   )
 }

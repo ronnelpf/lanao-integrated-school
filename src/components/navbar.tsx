@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { HStack, Icon, IconButton, Link, useColorMode, Button, ButtonProps, Flex } from '@chakra-ui/react'
+import { HStack, Icon, IconButton, Link, useColorMode, Button, ButtonProps } from '@chakra-ui/react'
 
 import { FaMoon } from 'react-icons/fa'
 import NextLink from 'next/link'
@@ -30,7 +30,7 @@ export const Navbar: React.FC = () => {
             variant="link"
           />
         ))} */}
-          <FollowButtonWithShadow />
+          <EnrollButtonShadow />
           <IconButton
             aria-label="toggle dark mode"
             color="currentColor"
@@ -44,7 +44,7 @@ export const Navbar: React.FC = () => {
   )
 }
 
-export default function FollowButtonWithShadow(props: ButtonProps) {
+export default function EnrollButtonShadow(props: ButtonProps) {
   return (
     <Button
       {...props}
