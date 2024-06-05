@@ -1,5 +1,16 @@
 import React from 'react'
-import { Box, IconButton, useBreakpointValue, Stack, Heading, Text, Container } from '@chakra-ui/react'
+import {
+  Box,
+  IconButton,
+  useBreakpointValue,
+  Stack,
+  Heading,
+  Text,
+  Container,
+  Button,
+  Card,
+  Highlight,
+} from '@chakra-ui/react'
 // Here we have used react-icons package for the icons
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 // And react-slick as our Carousel Lib
@@ -106,10 +117,20 @@ export const Carousel: React.FC = () => {
             {/* This is the block you need to change, to customize the caption */}
             <Container size="container.lg" height="600px" position="relative">
               <Stack spacing={6} w={'full'} maxW={'lg'} position="absolute" top="50%" transform="translate(0, -50%)">
-                <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>{card.title}</Heading>
-                <Text fontSize={{ base: 'md', lg: 'lg' }} color="GrayText">
-                  {card.text}
+                <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+                  <Highlight
+                    query={card.title}
+                    styles={{ px: '2', py: '1', rounded: 'sm', bg: 'rgba(255, 255, 255, 0.15)' }}
+                  >
+                    {card.title}
+                  </Highlight>
+                </Heading>
+                <Text isTruncated fontSize={{ base: 'md', lg: 'lg' }} color="GrayText">
+                  <Highlight query={card.text} styles={{ px: '2', py: '1', rounded: 'sm', bg: 'rgba(255, 255, 255, 0.15)' }}>
+                    {card.text}
+                  </Highlight>
                 </Text>
+                <Button colorScheme="whiteAlpha">Read more</Button>
               </Stack>
             </Container>
           </Box>
