@@ -46,3 +46,16 @@ body {
 .nprogress-custom-parent #nprogress .bar {
   position: absolute;
 }
+
+.navBar {
+    position: fixed;
+    top: 0px;
+    width: var(--chakra-sizes-full);
+    min-height: 60px;
+    box-shadow: var(--chakra-shadows-sm);
+    z-index: 999;
+    -webkit-backdrop-filter: saturate(180%) blur(5px);
+    backdrop-filter: saturate(180%) blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);
+
+}

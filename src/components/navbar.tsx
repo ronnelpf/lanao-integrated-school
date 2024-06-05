@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { HStack, Icon, IconButton, Link, useColorMode } from '@chakra-ui/react'
+import { HStack, Icon, IconButton, Link, useColorMode, Button, ButtonProps, Flex } from '@chakra-ui/react'
 
 import { FaMoon } from 'react-icons/fa'
 import NextLink from 'next/link'
@@ -12,13 +12,14 @@ export const Navbar: React.FC = () => {
   const socials = useSocials()
 
   return (
-    <HStack className="chakra-container css-f1f7ew" as="nav" fontSize="md" spacing={0}>
-      <Link fontWeight="bold" href="/" p={4} variant="link">
-        {siteConfig.title}
-      </Link>
+    <div className="navBar">
+      <HStack className="chakra-container css-f1f7ew" as="nav" fontSize="md" spacing={0}>
+        <Link fontWeight="bold" href="/" p={4} variant="link">
+          {siteConfig.title}
+        </Link>
 
-      <HStack flexGrow={1} justify="flex-end" spacing={{ base: 0, sm: 2 }}>
-        {/* {socials.map(([href, SocialIcon]) => (
+        <HStack flexGrow={1} justify="flex-end" spacing={{ base: 0, sm: 2 }}>
+          {/* {socials.map(([href, SocialIcon]) => (
           <IconButton
             as="a"
             aria-label={href}
@@ -29,14 +30,39 @@ export const Navbar: React.FC = () => {
             variant="link"
           />
         ))} */}
-        <IconButton
-          aria-label="toggle dark mode"
-          color="currentColor"
-          icon={<Icon as={FaMoon} boxSize={5} />}
-          onClick={toggleColorMode}
-          variant="link"
-        />
+          <FollowButtonWithShadow />
+          <IconButton
+            aria-label="toggle dark mode"
+            color="currentColor"
+            icon={<Icon as={FaMoon} boxSize={5} />}
+            onClick={toggleColorMode}
+            variant="link"
+          />
+        </HStack>
       </HStack>
-    </HStack>
+    </div>
+  )
+}
+
+export default function FollowButtonWithShadow(props: ButtonProps) {
+  return (
+    <Button
+      {...props}
+      /* flex={1} */
+      px={4}
+      fontSize={'sm'}
+      rounded={'full'}
+      bg={'blue.400'}
+      color={'white'}
+      boxShadow={'0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)'}
+      _hover={{
+        bg: 'blue.500',
+      }}
+      _focus={{
+        bg: 'blue.500',
+      }}
+    >
+      Enroll Now
+    </Button>
   )
 }
