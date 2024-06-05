@@ -13,6 +13,7 @@ import { Carousel } from '@/components/carousel'
 import { Statistics } from '@/components/statistics'
 import { FeaturedArticles } from '@/components/featured-articles'
 import { CallToAction } from '@/components/call-to-action'
+import { Events } from '@/components/events'
 import { Footer } from '@/components/footer'
 import { theme } from '@/theme'
 import siteConfig from '~/site-config'
@@ -78,6 +79,7 @@ function App(props: AppProps) {
             <Statistics />
             <FeaturedArticles />
             <CallToAction />
+            <Events />
             <Footer />
           </Stack>
           <MobileDrawer />
