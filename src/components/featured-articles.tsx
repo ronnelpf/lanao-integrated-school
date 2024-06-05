@@ -18,7 +18,7 @@ import {
 
 export const FeaturedArticles: React.FC = () => {
   return (
-    <Flex minH={'100vh'} align={'center'} justify={'center'} bg={useColorModeValue('gray.50', 'gray.800')}>
+    <Flex minH={'100vh'} align={'center'} justify={'center'}>
       <Stack spacing={8} py={12} px={6}>
         <Stack align={'center'}>
           <Heading fontSize={'4xl'}>Featured Articles</Heading>
