@@ -125,12 +125,19 @@ export const Carousel: React.FC = () => {
                     {card.title}
                   </Highlight>
                 </Heading>
-                <Text isTruncated fontSize={{ base: 'md', lg: 'lg' }} color="GrayText">
+                <Text
+                  width={{ base: 'xs', md: 'md', lg: 'lg' }}
+                  isTruncated
+                  fontSize={{ base: 'md', lg: 'lg' }}
+                  color="GrayText"
+                >
                   <Highlight query={card.text} styles={{ px: '2', py: '1', rounded: 'sm', bg: 'rgba(255, 255, 255, 0.15)' }}>
                     {card.text}
                   </Highlight>
                 </Text>
-                <Button colorScheme="whiteAlpha">Read more</Button>
+                <Button width={{ base: 'xs', md: 'md', lg: 'lg' }} colorScheme="whiteAlpha">
+                  Read more
+                </Button>
               </Stack>
             </Container>
           </Box>
