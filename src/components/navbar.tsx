@@ -47,6 +47,9 @@ export const Navbar: React.FC = () => {
 export default function EnrollButtonShadow(props: ButtonProps) {
   return (
     <Button
+      as={'a'}
+      href="https://script.google.com/macros/s/AKfycbxgl9wtjqxyQckGLtnv14p0jaxa_lKobK_3N4OCi2YhmSe7cfpcmqVkHz1BOBEox3dL/exec"
+      target="_blank"
       {...props}
       /* flex={1} */
       px={4}
