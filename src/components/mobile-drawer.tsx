@@ -14,7 +14,6 @@ import {
   DrawerOverlay,
   Icon,
   IconButton,
-  Image,
   Link,
   Menu,
   MenuButton,
@@ -27,7 +26,7 @@ import {
 } from '@chakra-ui/react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
-import NextLink from 'next/link'
+import Image from 'next/image'
 import { useSocials } from '@/hooks/app'
 import siteConfig from '~/site-config'
 
@@ -57,17 +56,7 @@ export const MobileDrawer: React.FC = () => {
             <DrawerHeader p={8}>
               <Center>
                 <VStack>
-                  <Image
-                    rounded={'xl'}
-                    alt={'LIS LOGO'}
-                    src={
-                      'https://scontent.fceb1-2.fna.fbcdn.net/v/t39.30808-6/337003525_1487142965435916_2176651500174898000_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH0qFqKNLFK0laZ7wENfU4UyeOYIJ8ShSTJ45ggnxKFJK9BaNpTwIncelk4U-Q6HcnqJy2vhTI4SwsYHhvaF8pN&_nc_ohc=PuM0YODaw5gQ7kNvgGMA7uq&_nc_ht=scontent.fceb1-2.fna&oh=00_AYC3XlaDW6QTSevQ-LgHnjyHt-KdwbFmy9J81JOcgHqJ9g&oe=6665B2C2'
-                    }
-                    boxSize="xs"
-                    objectFit={'cover'}
-                    height={20}
-                    width={20}
-                  />
+                  <Image src="/lis-logo.jpg" width={80} height={80} alt="lis-logo" />
                   <Link href="/" onClick={onClose} variant="link">
                     {siteConfig.title}
                   </Link>

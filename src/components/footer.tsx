@@ -1,6 +1,7 @@
 import * as React from 'react'
-import { Box, Divider, Flex, HStack, Icon, Image, Link, Stack, Text, useColorModeValue } from '@chakra-ui/react'
+import { Box, Divider, Flex, HStack, Icon, Link, Stack, Text, useColorModeValue } from '@chakra-ui/react'
 import { useSocials } from '@/hooks/app'
+import Image from 'next/image'
 
 export const Footer: React.FC = () => {
   const socials = useSocials()
@@ -25,17 +26,7 @@ export const Footer: React.FC = () => {
             ml: 8,
           }}
         >
-          <Image
-            rounded={'xl'}
-            alt={'LIS LOGO'}
-            src={
-              'https://scontent.fceb1-2.fna.fbcdn.net/v/t39.30808-6/337003525_1487142965435916_2176651500174898000_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH0qFqKNLFK0laZ7wENfU4UyeOYIJ8ShSTJ45ggnxKFJK9BaNpTwIncelk4U-Q6HcnqJy2vhTI4SwsYHhvaF8pN&_nc_ohc=PuM0YODaw5gQ7kNvgGMA7uq&_nc_ht=scontent.fceb1-2.fna&oh=00_AYC3XlaDW6QTSevQ-LgHnjyHt-KdwbFmy9J81JOcgHqJ9g&oe=6665B2C2'
-            }
-            boxSize="xs"
-            objectFit={'cover'}
-            height={20}
-            width={20}
-          />
+          <Image src="/lis-logo.jpg" width={50} height={50} alt="lis-logo" />
         </Flex>
         <Text pt={6} fontSize={'sm'} textAlign={'center'}>
           © 2024 Lanao Integrated School. All rights reserved
