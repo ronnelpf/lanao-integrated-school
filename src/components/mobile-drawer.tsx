@@ -94,6 +94,7 @@ export const MobileDrawer: React.FC = () => {
                   key={href}
                   size="lg"
                   variant="link"
+                  target="_blank"
                 />
               ))}
             </DrawerFooter>

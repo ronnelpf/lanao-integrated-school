@@ -90,6 +90,8 @@ export const ContactUs: React.FC = () => {
                   </Stack>
                   <Stack spacing={0} align={'center'} mb={5}>
                     <Button
+                      as={'a'}
+                      href="tel:63-988888888"
                       m={3}
                       size="md"
                       height="48px"
@@ -102,6 +104,8 @@ export const ContactUs: React.FC = () => {
                       +63-988888888
                     </Button>
                     <Button
+                      as={'a'}
+                      href="mailto:lis@gmail.com"
                       m={3}
                       size="md"
                       height="48px"
@@ -129,6 +133,9 @@ export const ContactUs: React.FC = () => {
                   <Stack spacing={0} align={'center'} mb={5}>
                     <HStack mt={{ lg: 10, md: 10 }} spacing={5} px={5} alignItems="flex-start">
                       <IconButton
+                        as={'a'}
+                        href="https://www.facebook.com/LanaoIntegratedSchool"
+                        target="_blank"
                         aria-label="facebook"
                         size="lg"
                         isRound={true}
@@ -136,6 +143,9 @@ export const ContactUs: React.FC = () => {
                         icon={<MdFacebook size="28px" />}
                       />
                       <IconButton
+                        as={'a'}
+                        href="https://www.facebook.com/LanaoIntegratedSchool"
+                        target="_blank"
                         aria-label="github"
                         size="lg"
                         isRound={true}
@@ -143,6 +153,9 @@ export const ContactUs: React.FC = () => {
                         icon={<BsGithub size="28px" />}
                       />
                       <IconButton
+                        as={'a'}
+                        href="https://www.facebook.com/LanaoIntegratedSchool"
+                        target="_blank"
                         aria-label="discord"
                         size="lg"
                         isRound={true}

@@ -15,7 +15,7 @@ module.exports = {
   email: 'rpf.programmer@gmail.com',
   socials: {
     GitHub: 'https://github.com/ronnelpf/lanao-integrated-school',
-    Twitter: 'https://twitter.com/rpfprogrammer',
+    Twitter: 'https://www.facebook.com/LanaoIntegratedSchool',
   },
   bgColor: '#1A202C',
   themeColor: 'blue.500',
