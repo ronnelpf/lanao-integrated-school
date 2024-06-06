@@ -1,4 +1,8 @@
-module.exports = {
+const withPWA = require('next-pwa')({
+  dest: 'public'
+})
+
+const nextConfig = {
   async headers() {
     return [
       {
@@ -25,4 +29,6 @@ module.exports = {
     ]
   },
   reactStrictMode: true,
-}
+};
+
+module.exports = withPWA(nextConfig);
