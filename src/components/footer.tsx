@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
         <Box p={2}>
           <FacebookShareButton
             url={'https://lanao-integrated-school.vercel.app'}
-            quote={'You can do online enrollment on the Lanao Integrated School Web App'}
+            quote={'You can do online enrollment on the Consuelo Water Refilling Station Web App'}
             hashtag={'#LanaoIntegratedSchoolWebApp'}
           >
             <FacebookIcon size={32} round />
@@ -57,10 +57,10 @@ export const Footer: React.FC = () => {
             ml: 8,
           }}
         >
-          <Image src="/lis-logo.jpg" width={50} height={50} alt="lis-logo" />
+          <Image src="/consuelo-logo.jpg" width={50} height={50} alt="logo-lanao" />
         </Flex>
         <Text pt={6} fontSize={'sm'} textAlign={'center'}>
-          © 2024 Lanao Integrated School. All rights reserved
+          © 2024 Consuelo Water Refilling Station. All rights reserved
         </Text>
       </Box>
     </Box>

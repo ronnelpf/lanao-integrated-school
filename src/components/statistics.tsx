@@ -30,12 +30,12 @@ export const Statistics: React.FC = () => {
     <Container maxW="Full" background="blue.50" pb={8}>
       <Box maxW="7xl" mx={'auto'} px={{ base: 2, sm: 12, md: 17 }}>
         <chakra.h1 textAlign={'center'} fontSize={'4xl'} py={10} fontWeight={'bold'}>
-          What is our school doing?
+          What is our Refilling Station doing?
         </chakra.h1>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
-          <StatsCard title={'We teach'} stat={'1,000 students'} />
-          <StatsCard title={'In'} stat={'30 classrooms'} />
-          <StatsCard title={'Who speak'} stat={'20 teachers'} />
+          <StatsCard title={'Populations'} stat={'4,000 constituents'} />
+          <StatsCard title={'In'} stat={'30 infrastructures'} />
+          <StatsCard title={'Who speak'} stat={'20 community organizations'} />
         </SimpleGrid>
       </Box>
     </Container>

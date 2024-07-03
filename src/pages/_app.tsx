@@ -1,9 +1,8 @@
+import Head from 'next/head'
 import '@/stylesheets/html.css'
-
 import React from 'react'
 import { Box, ChakraProvider, Stack } from '@chakra-ui/react'
 import { DefaultSeo, SocialProfileJsonLd } from 'next-seo'
-import Head from 'next/head'
 import NProgress from 'nprogress'
 import Router from 'next/router'
 import dynamic from 'next/dynamic'
@@ -34,6 +33,9 @@ function App(props: AppProps) {
   return (
     <>
       <Head>
+        <meta property="og:image" content="https://lanao-integrated-school.vercel.app/social.png" />
+        <meta property="og:title" content={siteConfig.title} />
+        <meta property="og:desciption" content="this is a sample description" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 

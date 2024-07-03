@@ -46,19 +46,19 @@ export const Carousel: React.FC = () => {
       title: 'Design Projects 1',
       text: "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
       image:
-        'https://scontent.fceb1-3.fna.fbcdn.net/v/t39.30808-6/359784891_183581491362544_3517783001639202466_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFsLQ74jCxaQne1leHjc98iPF1ka5-XywE8XWRrn5fLAWbH-7jJWzHxbTzyXKDgNwj7IwP40oS-op0V-yIh-O3q&_nc_ohc=ChAQwtQfgpEQ7kNvgGcwZOr&_nc_ht=scontent.fceb1-3.fna&oh=00_AYA2Uou2aNY7UGtVdEZYFpw4pfXiS2LLsvkXDjiG4F2e9w&oe=66663719',
+        'https://scontent.fceb1-5.fna.fbcdn.net/v/t39.30808-6/310440645_115505044646290_5460674318116681196_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHiVTg-pRCHLs-f2XW0fMAyFVq37KE3hmoVWrfsoTeGaiIk1wfExTzEOhFxsaB_k8HfnjfZ7cy7MC2luw5IuqgM&_nc_ohc=dZxX88NTZ5cQ7kNvgFIx6bT&_nc_ht=scontent.fceb1-5.fna&oh=00_AYBg4yBt7SakeQZVE8Tpv73ikjrP8oGk0fZSAFQrJIQo4w&oe=668A943D',
     },
     {
       title: 'Design Projects 2',
       text: "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
       image:
-        'https://scontent.fceb1-5.fna.fbcdn.net/v/t39.30808-6/406801200_264431963277496_7416103855624405052_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHx_yzmJ_FQSE210FJc6ujne7_3Rs6Ewvl7v_dGzoTC-XNXqiVw7BQvWEVzJUnjEWd7GKMynrOl_em7XdqFAXKf&_nc_ohc=O_oj2zAak70Q7kNvgFGDUAj&_nc_ht=scontent.fceb1-5.fna&oh=00_AYBCDMM9oYHbel9f37MRa0a3PKMKk1d1yY-Gfm7Cxd98hg&oe=666638E6',
+        'https://scontent.fceb1-5.fna.fbcdn.net/v/t39.30808-6/306834404_115331191311681_2382928097961021127_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFmJmAyzygG4qiwF38XAyii3mpplV6iWL7eammVXqJYvlAqtSsvfCS6UettVrwk10LdE3LhI3zAw-X3rRnyaw8S&_nc_ohc=3nopKn5YJBgQ7kNvgGluLe7&_nc_ht=scontent.fceb1-5.fna&oh=00_AYA0-v8GXrV4p7qgCXAYzF48vLCg4fKyw6KpRcRQqFyvSg&oe=668A6813',
     },
     {
       title: 'Design Projects 3',
       text: "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
       image:
-        'https://scontent.fceb1-4.fna.fbcdn.net/v/t39.30808-6/359766959_183546598032700_7550839420482962834_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE8FeA54J8s9hJBBrX16G7lePIVjLizh0N48hWMuLOHQwUyuEs7YO29qW08UTj7qHcEV5WporjW_enYN3i84BNx&_nc_ohc=6btRngq69NkQ7kNvgG8kIx-&_nc_ht=scontent.fceb1-4.fna&oh=00_AYDOl6Ilhx9agGsxRTmGD9vQyOvTKIPWFK_H4qzhgOrNSw&oe=6666414E',
+        'https://scontent.fceb1-4.fna.fbcdn.net/v/t39.30808-6/314888452_125967710266690_3534555659882295870_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE_IB6nLQpUcNNrkjiRLcQiz-hbTBOVbwrP6FtME5VvCjJPt7zFe_T9hHtlz0VWRmGvTbBvkkzch5u2f1KJzOSS&_nc_ohc=02DrCMKoKxEQ7kNvgFVwG_W&_nc_ht=scontent.fceb1-4.fna&oh=00_AYAVSBTaAMspFv95e-wvgljkYv2SGq0vcZUsWHqCT3JWBw&oe=668A7406',
     },
   ]
 

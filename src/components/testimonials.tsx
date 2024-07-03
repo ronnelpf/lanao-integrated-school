@@ -131,7 +131,7 @@ export const Testimonials: React.FC = () => {
           People love us
         </chakra.h3>
         <chakra.h1 py={5} fontSize={48} fontWeight={'bold'} color={useColorModeValue('gray.700', 'gray.50')}>
-          You're in good school
+          You're in good Refilling Station
         </chakra.h1>
         <chakra.h2 margin={'auto'} width={'70%'} fontWeight={'medium'} color={useColorModeValue('gray.500', 'gray.400')}>
           See why over <chakra.strong color={useColorModeValue('gray.700', 'gray.50')}>150,000+</chakra.strong> influencers

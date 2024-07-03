@@ -129,7 +129,7 @@ export const CallToAction: React.FC = () => {
                 zIndex: -1,
               }}
             >
-              Lanao Integrated School's,
+              Consuelo Water Refilling Station's,
             </Text>
             <br />
             <Text as={'span'} color={'blue.400'}>

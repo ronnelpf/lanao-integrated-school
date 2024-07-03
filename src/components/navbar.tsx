@@ -48,7 +48,7 @@ export default function EnrollButtonShadow(props: ButtonProps) {
   return (
     <Button
       as={'a'}
-      href="https://script.google.com/macros/s/AKfycbwhV-lMdBh7ulDRJcj2R8vGfrOKCd9-aFmUJ2ZJ6sLYYV-h_kIIGAS1KrmnzWU4MDMk/exec"
+      href="https://script.google.com/macros/s/AKfycbzcZeicBULPHRV0RpAZerAWeQAjmjUq5ikzXfRdghLTKtcm07t3XC4FiN9z2NaVmEc/exec"
       target="_blank"
       {...props}
       /* flex={1} */
@@ -65,7 +65,7 @@ export default function EnrollButtonShadow(props: ButtonProps) {
         bg: 'blue.500',
       }}
     >
-      Enroll Now
+      Order Now
     </Button>
   )
 }

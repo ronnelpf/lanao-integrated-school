@@ -71,7 +71,7 @@ export const ContactUs: React.FC = () => {
               <Box minWidth={useBreakpointValue({ base: '380px', md: '850px' })} height={'full'}>
                 <AspectRatio ratio={16 / 9}>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2929.812441937524!2d124.02517297345187!3d11.245930350361457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a876fbd454696f%3A0x8c229ef4f42f863a!2sLanao%20Integrated%20School!5e1!3m2!1sen!2sph!4v1717583637796!5m2!1sen!2sph"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2929.7537284515815!2d124.02074700071336!3d11.25170346410723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a8771fecbb0d7d%3A0xf1cf2f3f3ff5099b!2sCASA%20CONSUELO!5e1!3m2!1sen!2sph!4v1719971421836!5m2!1sen!2sph"
                     loading="lazy"
                   ></iframe>
                 </AspectRatio>
@@ -115,7 +115,7 @@ export const ContactUs: React.FC = () => {
                       _hover={{ border: '2px solid #1C6FEB' }}
                       leftIcon={<MdEmail color="#1970F1" size="20px" />}
                     >
-                      lis@gmail.com
+                      consuelo@gmail.com
                     </Button>
                     <Button
                       m={3}

@@ -41,12 +41,14 @@ export const MobileDrawer: React.FC = () => {
       <Box bottom={0} p={5} pos="fixed" right={0} zIndex={1}>
         <IconButton
           aria-label="Open menu"
-          bgColor={siteConfig.themeColor}
+          // bgColor={siteConfig.themeColor}
+          bgColor={'blue.500'}
           icon={<Icon as={isOpen ? FaTimes : FaBars} />}
           isRound
           onClick={onToggle}
           ref={btnRef}
           size="lg"
+          color={'purple.800'}
         />
       </Box>
 
@@ -56,7 +58,7 @@ export const MobileDrawer: React.FC = () => {
             <DrawerHeader p={8}>
               <Center>
                 <VStack>
-                  <Image src="/lis-logo.jpg" width={80} height={80} alt="lis-logo" />
+                  <Image src="/consuelo-logo.jpg" width={80} height={80} alt="consuelo-logo.jpg" />
                   <Link href="/" onClick={onClose} variant="link">
                     {siteConfig.title}
                   </Link>

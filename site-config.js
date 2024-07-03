@@ -1,4 +1,4 @@
-const descriptionMd = `Lanao Integrated School`
+const descriptionMd = `Consuelo Water Refilling Station`
 
 const description = descriptionMd
   .replace(/\[([^\]]+)\](\([^)]+\)|\[[^\]]+\])/g, '$1')
@@ -7,9 +7,9 @@ const description = descriptionMd
   .trim()
 
 module.exports = {
-  title: 'Lanao Integrated School',
-  descriptionMd,
-  description,
+  title: 'Consuelo Water Refilling Station',
+  descriptionMd: 'PWA Consuelo Water Refilling Station',
+  description: 'Progressive Web App Consuelo Water Refilling Station',
   url: 'https://lanao-integrated-school.vercel.app',
   twitterUsername: '@rpfprogrammer',
   email: 'rpf.programmer@gmail.com',

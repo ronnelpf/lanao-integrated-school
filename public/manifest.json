@@ -1,12 +1,12 @@
 {
     "theme_color": "#3182CE",
-    "background_color": "#1A202C",
+    "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Lanao Integrated School App",
-    "short_name": "LIS App",
-    "description": "PWA of Lanao Integrated School",
+    "name": "Consuelo Water Refilling Station",
+    "short_name": "CWRS App",
+    "description": "PWA of Consuelo Water Refilling Station",
     "icons": [
         {
             "src": "/icon-192x192.png",
